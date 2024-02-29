@@ -1,0 +1,66 @@
+p{
+    color: crimson;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12pt;
+}
+body {
+    background-color: aquamarine;
+    background-image: url('../img/cloud.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+fieldset, legend {
+    border-width: 1px;
+    border-color: darkolivegreen;
+    border-radius: 30px;
+}
+
+legend{
+    padding: 10px; 
+    background-color: palevioletred;
+    color: white;
+    font-weight: bold;
+    font-size: 14pt;
+}
+table{
+    border:10px;
+    margin: auto;
+}
+tr{
+    padding: 5px;
+    border: 1px solid purple;
+}
+
+tr:hover{
+    background-color: rebeccapurple;
+    color: red;
+    font-size: 20pt;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+
+#paragraph{
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    color: purple;
+}
+
+ul, li, a.item:link, a.item:visited, a.item:active{
+    text-decoration: none;
+    list-style: none;
+
+}
+
+h1 {
+    font-size: 32px; /* Ukuran font */
+    color: #ff01dd; /* Warna teks */
+    font-family: Arial, sans-serif; /* Jenis font */
+    font-weight: bold; /* Ketebalan font */
+    text-align: center; /* Posisi teks (tengah) */
+    margin-top: 20px; /* Jarak atas */
+    margin-bottom: 20px; /* Jarak bawah */
+    text-shadow: 2px 2px 4px rgb(0, 0, 0); /* Bayangan teks */
+  }

@@ -1,0 +1,32 @@
+legend{
+    padding: 10px; 
+    background-color: palevioletred;
+    color: white;
+    font-weight: bold;
+    font-size: 14pt;
+}
+body {
+    background-color: aquamarine;
+    background-image: url('../img/painted.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul, li, a.item:link, a.item:visited, a.item:active{
+    text-decoration: none;
+    list-style: none;
+}
+
+tr:hover{
+    background-color: orangered;
+    color: red;
+    font-size: 20pt;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+
+li a{
+    text-decoration: none; /* Menghapus garis bawah dari link */
+    color: #333; /* Warna teks */
+  }

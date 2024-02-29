@@ -1,0 +1,63 @@
+*{
+   box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.header{
+    background-image: url('../img/awan.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+.navbar{
+    overflow: hidden;
+    background-color: plum;
+    justify-content: center;
+    display: flex;
+}
+
+.navbar a{
+    float: left;
+    text-decoration: none;
+    padding: 14px 16px;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: goldenrod;
+    color: black;
+}
+
+.column{
+    float: left;
+    padding: 10px;
+}
+
+.column.side{
+    width: 25%;
+}
+
+.column.middle{
+    width: 50%;
+}
+
+.row.after{
+content: "";
+display: table;
+clear: both;
+}
+
+.footer{
+    background-color: plum; /* Warna latar belakang footer */
+color: #fff; /* Warna teks footer */
+padding: 0px; /* Ruang di sekitar teks footer */
+text-align: center; /* Pusatkan teks footer */
+position: fixed; /* Footer akan tetap di bagian bawah layar */
+bottom: 0; /* Tempatkan footer di bagian bawah halaman */
+width: 100%; /* Lebar footer 100% dari lebar layar */
+}

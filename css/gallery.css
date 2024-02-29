@@ -1,0 +1,23 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .image img {
+    width: 280px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+  }
+
+  .image img:hover {
+    transform: scale(1.1);
+  }
+
+  .description {
+    margin-top: 10px;
+    font-size: 20px;
+    color:#000000;
+  }

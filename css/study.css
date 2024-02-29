@@ -1,0 +1,21 @@
+tr:hover {
+    background-color: whitesmoke; /* Warna latar belakang saat hover */
+  }
+
+  body {
+    background-color: orange;
+    background-image: url('../img/orangebg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 32px; 
+    color: black; 
+    font-family: Arial, sans-serif; 
+    font-weight: bold; 
+    text-align: center; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
